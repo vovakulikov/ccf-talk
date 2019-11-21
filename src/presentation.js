@@ -42,6 +42,7 @@ import GlebInBadStateImage from './images/gleb-in-bad-state.jpg'
 import WeAtTheEndOfJourney from './images/we-at-the-end-of-jorney.mp4';
 import RomaImage from './images/roma.png';
 import DreamImage from './images/livint-the-dream.jpeg';
+import TableViewCCFImage from './images/ccf-at-table-view.gif';
 
 const PresentationPitch = () => (
     <Presentation
@@ -61,6 +62,10 @@ const PresentationPitch = () => (
             <img src={formulaImage} alt="formula" />
         </PlainSlide>
 
+        <PlainSlide name="CCF в таблице">
+            <img src={TableViewCCFImage} alt="Table view at ccf" style={{ width: "100%", transform: 'translateX(-5px)'}}/>
+        </PlainSlide>
+
         <PlainSlide name="Прошлогодняя фича">
             <H2>Это уже было в 2018 году! 😲</H2>
         </PlainSlide>
@@ -74,7 +79,7 @@ const PresentationPitch = () => (
         </PlainSlide>
 
         <Slide centered name="Гений!!!!">
-            <H2>Игорь Зубов написал первую версию и движок калькуляций еще в весной 2018 🔥🎸</H2>
+            <H2>Игорь Зубов написал первую версию и движок калькуляций еще весной 2018 🔥🎸</H2>
         </Slide>
 
         <PlainSlide name="Калькуляции в репортах">
