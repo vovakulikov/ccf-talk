@@ -277,7 +277,9 @@ const PresentationPitch = () => (
         </PlainSlide>
 
         <PlainSlide name="Конец">
-            <img src={WeAtTheEndOfJourney} alt="Normal Gleb" style={{ height: '100%'}} />
+            <video style={{ width: '100%', height: '100%' }} autoPlay muted loop>
+                <source src={WeAtTheEndOfJourney} type="video/mp4" />
+            </video>
         </PlainSlide>
 
         <Slide centered name="Type checking note">
