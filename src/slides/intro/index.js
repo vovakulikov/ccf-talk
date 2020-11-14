@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Slide } from 'presa';
 import { Title, H2 } from 'presa/blocks'
 
-import backgroundGif from "./dude-about-math.gif";
+import backgroundGif from "./heart.gif";
 
 const DeckTitle = styled(Title)`
   line-height: 0.95;
@@ -46,7 +46,7 @@ const Index = (props) => {
 	return (
 		<ContrastSlide {...props} background={backgroundGif}>
 			<DeckTitle>
-				Как мы делали CFF ↝<br />Vse ploho
+				Как мы делали CFF ↝
 			</DeckTitle>
 
 			<H2>
